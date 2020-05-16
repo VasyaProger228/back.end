@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('/css/directions.css') }}" />
     </head>
     <body>
+    <!-- privet -->
         @include('layouts.nav')
         @yield('content')
         @include('layouts.footer')
